@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>lorem</h1>
+  <h2>Lorem, ipsum.</h2>
+  <h3>Lorem, ipsum dolor</h3>
+
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit officiis sapiente ratione reprehenderit explicabo atque nisi facilis porro voluptates pariatur eligendi vero ea odio, necessitatibus molestias, repellat suscipit architecto sint?</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam enim, aliquam sed quisquam, sequi molestiae eaque laudantium repudiandae excepturi labore ab commodi. Tempora rerum officiis deleniti delectus exercitationem magni error!q</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed iure facere vero odit vitae eligendi voluptatibus alias nihil laborum dolorem doloremque enim officiis, libero deleniti eaque modi porro hic nesciunt!</p>
+  
+  <a href="https://www.jd.com/" target="_blank">在新窗口打开京东</a>
+  <a href="mailto:1234567@gmail.com">给我发邮件</a>
+  <a href="#dibu">跳转到底部</a>
+  <a href="aaaa" download="aaaa.pdf">点我下载文件</a>
+
+  <img src="https://images.pexels.com/photos/2286895/pexels-photo-2286895.jpeg" alt="图片" width="300" height="200">
+
+  <hr>
+  <hr>
+
+  <marquee>piao</marquee>
+
+  <em>这几种强调</em>
+  <strong>有什么 区别？</strong>
+  <u>这个？</u>
+  <i>这个？ 上面em是强调有语义,这里用i为样式无语义</i>
+  <br>
+  &lt;!-- 这段注释需要出现在页面里面 --&gt;
+  <br>
+  <pre><code>
+    function a(){
+      return 8
+    }
+  </code></pre>    
+
+  <hr>
+  <ul>    
+    <li>小学
+      <ol>
+        <li>一年级
+          <ol>
+            <li>上学期</li>
+            <li>下学期</li>
+          </ol>
+        </li>
+        <li>二年纪</li>
+        <li>三年级</li>
+      </ol>
+    </li>
+    <li>中学</li>
+    <li>大学</li>
+  </ul>
+
+  <hr>
+  <dl>
+    <dt>班级
+      <dd>三年二班</dd>
+    </dt>
+    <dt>老师
+      <dd>张</dd>
+      <dd>李</dd>
+      <dd>王</dd>
+    </dt>
+    <dt>学生</dt>
+      <dd>小明</dd>
+      <dd>豆豆</dd>
+  </dl>
+
+  <hr>
+  <h2>Google搜索</h2>
+  <form target="_blank" action="https://www.google.com/search">
+    <input type="text" name="q">
+    <button type="submit">在新窗口打开搜索结果</button>
+  </form>
+
+  <hr>
+  <form action="">
+    <p>个人信息调查表</p>
+    <dl>
+      <dt>性别</dt>
+        <dd>
+          <label><input type="radio" name="gender" value="male">男</label>
+
+          <input type="radio" id="female" name="gender" value="female"> 
+          <label for="female">女</label>
+        </dd>
+      <dt>年龄</dt>
+        <dd>
+          <select name="age">
+            <option value="" hidden>请选择</option>
+            <optgroup label="少年">
+              <option value="01">1到6岁</option>
+              <option value="02">6到12岁</option>
+            </optgroup>
+            <optgroup label="青年">
+              <option value="03">13到15岁</option>
+              <option value="04">16到18岁</option>
+            </optgroup>
+          </select>
+        </dd>
+      <dt>生日</dt>
+        <dd>
+          <input type="date" value="2025-05-05" name="birthday">
+        </dd>
+      <dt>生辰</dt>
+        <dd>
+          <input type="time" name="birthtime">
+        </dd>
+      <dt>图片</dt>
+        <dd>
+          <input type="file" name="picture" id="ur-photo" hidden>
+          <label for="ur-photo">click-here</label>
+        </dd>
+      <dt>自我介绍</dt>
+        <dd>
+          <textarea name="textarea01" cols="30" rows="10">&lt;/textarea&gt;</textarea>
+        </dd>
+    </dl>
+
+    <fieldset disabled>
+      <legend>这里全部禁用了</legend>
+      <input type="text">
+      <input type="text">
+      <input type="text">
+      <input type="text">
+    </fieldset>
+      <button>提交</button>
+      <button type="reset">重置</button>
+  </form>
+
+  <hr>
+  <table border="1">
+    <col>
+    <col bgcolor="red">
+    <tr>
+      <th>编号</th>
+      <th>品名</th>
+      <th>进价</th>
+      <th>出价</th>
+    </tr>
+    <tr>
+      <td>aaa</td>
+      <td>a</td>
+      <td rowspan="2">a</td>
+      <td>a</td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>a</td>
+      <td>a</td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>a</td>
+      <td>a</td>
+      <td>a</td>
+    </tr>
+    <tr>
+      <td>a</td>
+      <td>a</td>
+      <td>a</td>
+      <td>a</td>
+    </tr>
+  </table>
+  <p id="dibu"></p>
+
+  <hr><br><hr>
+</body>
+</html>
